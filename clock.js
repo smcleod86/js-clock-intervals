@@ -20,6 +20,10 @@ function ticker() {
     hour.style.transform = 'rotate(' + degreeHour + 'deg)'
     minute.style.transform = 'rotate(' + degreeMinute + 'deg)'
     second.style.transform = 'rotate(' + degreeSecond + 'deg)'
+    
+    //I tried using setIntertval but couldn't seem to play with things
+    //in order to make it work
+    //setInterval(ticker, 1000)
 
     //And now it ticks
     setTimeout(ticker, 1000)
